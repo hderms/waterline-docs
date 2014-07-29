@@ -8,6 +8,10 @@ live on seperate connections or in different databases within the same adapter.
 The following guides will walk you through the various ways that your data can be associated and
 how to setup and query assocatiated data.
 
+### Nested Associations
+Nested associations are not currently supported in Waterline ORM, so do not try to update a model while updating nested associations. Update models individually. 
+
+
 ### One-to-One Associations
 
 A one-to-one association states that a model may only be associated with one other model. In order
